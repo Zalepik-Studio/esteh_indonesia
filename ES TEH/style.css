@@ -1,0 +1,416 @@
+body {
+  background-image: url("img/bg4.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  background-image: url("img/bg4.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper {
+  width: 1000px;
+  margin: auto;
+  align-items: center;
+  position: relative;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+}
+nav {
+  width: 100%;
+  margin: auto;
+  line-height: 80px;
+  position: -webkit-sticky;
+  top: 0;
+  background: #ffffff;
+  z-index: 1;
+  border-bottom: 1px solid #444548;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  font-family: "comic sans ms";
+  align-items: center;
+}
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+nav ul li a.tbl-pink {
+  background: #fc5185;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 100px 15px 100px;
+  color: #ffffff;
+  cursor: pointer;
+}
+nav ul li a.tbl-pink:hover {
+  background: rgb(112, 177, 55);
+  text-decoration: none;
+}
+section#Home {
+  justify-content: center;
+}
+section#Home img {
+  width: 80%;
+  max-width: 600px;
+  height: 370px;
+  margin-top: 70px;
+  margin-left: 20px;
+}
+section#Home p {
+  font-family: "comic sans ms";
+  font-weight: 100;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: black;
+  width: 100%;
+}
+section#Home h1 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 50px;
+  color: black;
+  width: 100%;
+  line-height: 50px;
+}
+section#Home img {
+  width: 80%;
+  max-width: 650px;
+  height: 370px;
+  margin-top: 2px;
+  margin-left: 20px;
+}
+section#Home p a.tbl-pink {
+  background: #59af1f;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 30px;
+}
+section#Home p a.tbl-pink:hover {
+  background: rgb(221, 91, 173);
+  text-decoration: none;
+}
+section#Produk {
+  display: flex;
+  align-items: center;
+}
+section#Produk p {
+  font-family: "comic sans ms";
+  font-weight: 100;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: black;
+  width: 100%;
+}
+section#Produk h2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: black;
+  margin-bottom: 20px;
+}
+section#Produk img {
+  width: 80%;
+  max-width: 500px;
+  height: 900px;
+  margin-top: 30px;
+  margin-left: 90px;
+}
+section#Produk ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: "comic sans ms";
+  font-weight: 100px;
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: black;
+  width: 100%;
+}
+
+section#Produk ul li {
+  margin: 5px 0;
+}
+
+section#Produk ul li::before {
+  content: "\2022";
+  margin-right: 5px;
+}
+section#Produk p a.tbl-pink {
+  background: #fc5185;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+section#Produk p a.tbl-pink:hover {
+  background: rgb(64, 116, 200);
+  text-decoration: none;
+}
+section#About {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gambar-about {
+  margin-top: 20px;
+  align-items: center;
+  margin-bottom: 70px;
+}
+section#About p {
+  font-family: "comic sans ms";
+  font-weight: 100;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: black;
+  width: 100%;
+}
+section#About ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: "comic sans ms";
+  font-weight: 100px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: black;
+  width: 100%;
+  list-style-type: none;
+}
+section#About h2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: black;
+  margin-bottom: 20px;
+}
+section#About ul h2 {
+  margin-top: 70px;
+}
+section#About li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+section#About li img {
+  margin-right: 10px;
+}
+
+section#About li {
+  margin: 0;
+}
+section#About ul img {
+  width: 80%;
+  max-width: 200px;
+  height: 190px;
+  margin-top: 10px;
+}
+section#About p a.tbl-pink {
+  background: #1f73af;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 30px;
+}
+section#About p a.tbl-pink:hover {
+  background: rgb(221, 91, 173);
+  text-decoration: none;
+}
+section#Blog {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section#Blog ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: "comic sans ms";
+  font-weight: 100px;
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: black;
+  width: 100%;
+}
+
+section#Blog ul li {
+  margin: 5px 0;
+  margin-bottom: 30px;
+}
+
+section#Blog ul li::before {
+  content: "\2022";
+  margin-right: 5px;
+}
+section#Blog h2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: black;
+  margin-bottom: 20px;
+}
+section#Blog p {
+  font-family: "comic sans ms";
+  font-weight: 100;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: black;
+  width: 100%;
+}
+section#Blog p a.tbl-pink {
+  background: #af1fa8;
+  border-radius: 20px;
+  margin-bottom: 60px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+section#Blog p a.tbl-pink:hover {
+  background: rgb(101, 223, 85);
+  text-decoration: none;
+}
+section#Mitra {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section#Mitra p {
+  font-family: "comic sans ms";
+  font-weight: 100;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: black;
+  width: 100%;
+}
+section#Mitra h2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: black;
+  margin-bottom: 20px;
+}
+section#Mitra ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: "comic sans ms";
+  font-weight: 100px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: black;
+  width: 100%;
+}
+
+section#Mitra ul li {
+  margin: 5px 0;
+}
+
+section#Mitra ul li::before {
+  content: "\2022";
+  margin-right: 5px;
+}
+section#Mitra ul li ul li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: "comic sans ms";
+  font-weight: 100px;
+  font-size: 19px;
+  margin-bottom: 30px;
+  color: black;
+  width: 100%;
+}
+section#Mitra ul li ul li {
+  margin: 5px 0;
+}
+
+section#Mitra ul li ul li::before {
+  content: "\2022";
+  margin-right: 5px;
+}
+section#Mitra p a.tbl-pink {
+  background: #60af1f;
+  border-radius: 20px;
+  margin-bottom: 60px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+section#Mitra p a.tbl-pink:hover {
+  background: rgb(85, 94, 223);
+  text-decoration: none;
+}
+section#Shop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Mengatur teks ke tengah */
+}
+section#Shop img {
+  width: 80%;
+  max-width: 600px;
+  height: 370px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+section#Shop p {
+  font-family: "comic sans ms";
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 70px;
+  color: black;
+  width: 100%;
+}
+section#Shop p a {
+  font-family: "comic sans ms";
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 70px;
+  color: black;
+  width: 100%;
+}
+section#Shop h1 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 50px;
+  color: black;
+  width: 100%;
+  line-height: 50px;
+}
+section#Shop p a.tbl-pink {
+  background: #59af1f;
+  border-radius: 20px;
+  margin-bottom: 70px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+section#Shop p a.tbl-pink:hover {
+  background: rgb(221, 91, 173);
+  text-decoration: none;
+}
